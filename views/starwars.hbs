@@ -1,0 +1,14 @@
+<h1>Character info</h1>
+
+<ul>
+    <form action="/starwars" method="POST">
+        <input type="number" name="number">
+        <input type="submit" name="submit">
+    </form>
+</ul>
+
+<ul>
+    {{#each data}}
+        <li>{{@key}} : {{this}}</li>
+    {{/each}}
+</ul>

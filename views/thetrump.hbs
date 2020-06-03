@@ -1,0 +1,14 @@
+<h1>Quotes of the Dump</h1>
+
+{{!-- <ul>
+    <form action="/pokemon" method="POST">
+        <input type="number" name="name">
+        <input type="submit" name="submit">
+    </form>
+</ul> --}}
+
+<ul>
+    {{#each data}}
+        <li>{{@key}} : {{this}}</li>
+    {{/each}}
+</ul>

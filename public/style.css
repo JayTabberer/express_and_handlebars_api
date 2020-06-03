@@ -1,0 +1,28 @@
+
+.block {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.navList {
+    float: left;
+
+}
+
+.navList a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navList :hover {
+    background-color: gray;
+}
